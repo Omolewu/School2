@@ -1,0 +1,83 @@
+#all{
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+body{
+    padding: 50px;
+    background-color: rgb(81, 81, 255);
+}
+.login{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forgot{
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dont{
+    text-align: center;
+}
+.or{
+    text-align: center;
+    color: grey;
+}
+/* styleing for form inputs */
+
+input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px 0px 15px 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+/* styling for logi button */
+#login{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: rgb(66, 66, 247);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#signup{
+    color: rgb(66, 66, 247);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#face{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(66, 66, 247);
+}
+#fac{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 15px;
+    color:grey;
+    font-weight: 700;
+    margin-top:20px ;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+#faceicon{
+    font-size: 25px;
+    margin-left: -110px;
+    margin-right: 80px;
+}

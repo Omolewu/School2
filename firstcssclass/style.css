@@ -1,0 +1,19 @@
+#image{
+    /* background-image: url('butterfly.jpg'); */
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('butterfly.jpg');
+    height: 700px;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+}
+#secon{
+        /* background-image: url('butterfly.jpg'); */
+        background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('road.jpg');
+        height: 700px;
+        /* background-repeat: repeat-x; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}

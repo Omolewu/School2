@@ -1,0 +1,41 @@
+/* descendant [space]*/
+/* div p{
+    background-color: red;
+} */
+/* child [>] */
+/* div>p{
+    background-color: red;
+} */
+/* Adjascent [+] */
+/* div +p{
+    background-color: red;
+} */
+/* General [~] */
+/* div~code{
+background-color: red;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    min-width: 150px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 10px grey;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+.back{
+    max-width: 500px;
+    height: 500px;
+    /* background-image: linear-gradient(to top right ,red,green,yellow,blue,indigo,violet); */
+    margin: auto;
+    /* background-image: repeating-radial-gradient(circle,red ,green ,yellow); */
+    border-radius: 50%;
+    /* background-image: conic-gradient(red 0deg,red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg); */
+    /* background-image: repeating-conic-gradient(black 10%,yellow 15%); */
+}
+

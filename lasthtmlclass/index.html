@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form -->
+    <form action="">
+       <fieldset>
+        <legend>Form details</legend>
+        <div>
+            <p>
+                Username:
+
+            </p>
+            <input type="text" placeholder="e.g John Doe" readonly>
+        <input type="text" placeholder="Username" maxlength="8" required>
+
+        </div>
+        <div>
+            <p>Email</p>
+            <input type="email" required size="40" >
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password">
+        </div>
+        <div>
+            <p>Choose your gender</p>
+            <input type="radio" name="gender" id="" >Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="" checked>Others
+        </div>
+        <div>
+            <p>
+                Please Select your favorite Browser
+            </p>
+            <input type="checkbox" name="Chrome" id="" checked>Chrome
+            <input type="checkbox" name="Explorer" id="">Explorer
+            <input type="checkbox" name="Mozilla" id="">Mozilla
+            <input type="checkbox" name="Opera" id="">Opera
+            <input type="checkbox" name="Edge" id="">Edge
+        </div>
+        <div>
+            <p>
+                Enter your date of birth
+            </p>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <p>Select your favorite color</p>
+            <input type="color">
+        </div>
+        <div>
+            <input type="range">
+        </div>
+        <div>
+            <input type="number" step="2">
+        </div>
+        <div>
+            <p>Please upload your passport</p>
+            <input type="file" name="" id="">
+        </div>
+       <div>
+        <p>Select your favorite cars</p>
+        <select name="cars" id="">
+            <option value="Honda">Honda</option>
+            <option value="Benz">Benz</option>
+            <option value="LEXUS" selected>LEXUS</option>
+            <option value="bUGHATTI">bUGHATTI</option>
+        </select>
+       </div>
+       <div>
+        <p>Write a Post</p>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+       </div>
+        <input type="submit" value="Register"  >
+        <input type="reset" disabled>
+        <input type="button" value="Login">
+       </fieldset>
+    </form>
+</body>
+</html>

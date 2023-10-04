@@ -1,0 +1,80 @@
+/* marquee{
+    font-weight: 900;
+    font-size: 35px;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes color{
+    0%{color: blue;}
+    25%{color: red;}
+    50%{color: yellow;}
+    75%{color: aqua;}
+    100%{color: green;}
+} */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: stubborn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: linear;
+
+
+}
+@keyframes stubborn{
+    0%{background-color: red;left: 0px; top: 0px;}
+    25%{background-color: blue;left: 400px;top: 0px;}
+    50%{background-color: yellow; left: 400px;top: 400px;}
+    75%{background-color: aqua;top: 400px; left: 0px;}
+    100%{background-color: green;top: 0px;left: 0px;}
+}
+#box{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    border-radius: 50%;
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+    /* transition: width 5s, transform 5s; */
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: relative;
+}
+/* #box:hover{
+width: 400px;
+transform: rotate(180deg);
+} */
+@keyframes rotate{
+    0%{
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+    transform: rotate(90deg);
+    left: 0px;
+    }
+    25%{
+    background: repeating-conic-gradient(aqua 10%, pink 20%);
+    transform: rotate(180deg);
+    left: 200px;
+    }
+    50%{
+    background: repeating-conic-gradient(green 10%, orange 20%);
+    transform: rotate(270deg);
+    left: 400px;
+    }
+    75%{
+    background: repeating-conic-gradient(purple 10%, gold 20%);
+    left: 200px;
+    }
+    100%{
+    background: repeating-conic-gradient(blue 10%, white 20%);
+    left: 0px;
+    }
+}

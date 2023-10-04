@@ -1,0 +1,39 @@
+body{
+    padding: 50px 0px;
+}
+.box{
+    max-width:400px ;
+    /* border: 2px solid black; */
+    height: 400px;
+    margin: auto;
+    text-align:center;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    border-radius: 20px;
+    /* SYNTAX 
+    border:width style color
+    */
+    border: 3px solid black;
+    /* box-shadow: 10px 10px grey; */
+    box-shadow: 10px 10px 20px grey,10px 10px 30px yellow,20px 20px 5px red;
+    outline: 10px solid  yellow;
+}
+.text{
+    text-align: justify;
+    line-height: 1.5;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 10px; */
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.log{
+    text-shadow: 5px 5px 5px red,5px 5px 3px yellow;
+    border-right: 1px solid black;
+    border-bottom: 5px groove black;
+    margin: 10px 20px;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: red; */
+}
+    /* INTERNAL CSS using tag name*/
+    h1{
+        color: gold;
+        background-color: aqua;
+    }
+    /* INTERNAL CSS UCING CLASS NAME */
+    .one{
+        font-size: 40px;
+    }
+    /* INTERNAL CSS WITH AN ID NAME */
+    #one{
+        background: yellow;
+    }
+
+    .image{
+        /* background-image: url('https://www.thoughtco.com/thmb/vrp4f1nWL7vbvwIr_Op9ZSbJZTw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/teenage-students-in-classroom--141090063-5af498bc6bf0690036889c1b.jpg'); */
+        height: 1000px;
+        background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('https://www.thoughtco.com/thmb/vrp4f1nWL7vbvwIr_Op9ZSbJZTw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/teenage-students-in-classroom--141090063-5af498bc6bf0690036889c1b.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.8; */
+        background-attachment: fixed;
+    }
+    /* .image2{
+        background-image: url('https://www.thoughtco.com/thmb/vrp4f1nWL7vbvwIr_Op9ZSbJZTw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/teenage-students-in-classroom--141090063-5af498bc6bf0690036889c1b.jpg');
+        height: 1000px;
+        background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpBRs4wu9JJVwvtUWMydya3rpKANWMtBLf97e4X-Ahk7OxIFp8vr2R6Kh8pm6U8JExiIA&usqp=CAU');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+        background-attachment: fixed;
+    } */
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        border: 3px solid black;
+        /* margin for sing value 
+        SYNTAX:
+        margin:Single value(all sides)
+        */
+        /* margin: 100px; */
+
+        /* margin foor double values */
+        /* 
+        SYNTAX: 
+        margin: top&bottom left&right
+        */
+        /* margin: 100px 200px; */
+        /* margin for three values */
+        /* 
+        SYNTAX:
+        margin: top left&right bottom
+        
+        */
+        /* margin: 100px 200px 300px; */
+
+        /* margin for four values */
+        /* SYNTAX: 
+        margin: top right bottom left 
+        */
+        margin: 50px 60px 70px 80px;
+
+        /* padding: 30px; */
+        /* padding: 50px 60px; */
+        /* padding: 50px 60px 70px; */
+        /* padding: 20px 30px 40px 50px; */
+        
+    }
